@@ -8,5 +8,6 @@ RUN buildDeps="libpq-dev libzip-dev libicu-dev" && \
         pdo \
         pdo_pgsql \
         pgsql \
+        sockets \
         intl
 CMD ["php-fpm"]
