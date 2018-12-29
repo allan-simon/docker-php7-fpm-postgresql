@@ -14,5 +14,6 @@ RUN buildDeps="libpq-dev libzip-dev libicu-dev libpng12-dev libjpeg62-turbo-dev 
         pdo_pgsql \
         pgsql \
         sockets \
+        xsl \
         intl
 CMD ["php-fpm"]
