@@ -1,4 +1,4 @@
-Docker based on official php:7-fpm
+Docker based on official php:7-fpm (updated when there's a new major php version)
 
 PHP7 with
    * opcache
